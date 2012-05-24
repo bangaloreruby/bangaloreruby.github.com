@@ -1,8 +1,6 @@
 ---
 layout : page
 ---
-{% include JB/setup %}
- 
 ```#!/usr/bin/ruby``` 
 
 
