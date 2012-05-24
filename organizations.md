@@ -1,7 +1,7 @@
 ---
 layout: page
-title : Members
-header : Members
+title : Organizations
+header : Organizations
 group: navigation
 ---
 {% include JB/setup %}
