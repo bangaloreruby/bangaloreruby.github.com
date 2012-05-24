@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bangalore Ruby User Group | BRUG!
-tagline: Supporting tagline
+tagline: Ruby hackers in Bangalore 
 ---
 {% include JB/setup %}
 
