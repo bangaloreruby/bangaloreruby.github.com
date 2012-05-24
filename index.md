@@ -3,9 +3,6 @@ layout : page
 ---
 
 
-<div style="float:left;margin:0 10px 10px 0" markdown="1">
-    ![Ruby Logo](./images/Ruby.png)
-</div>
 
 <div class="blog-index">
   {% assign post = site.posts.first %}
