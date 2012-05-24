@@ -37,7 +37,7 @@ group: navigation
 
     * rohit (Rohit Arondekar)
 
-    * sandeepravi (Sandeep )
+    * sandeepravi (Sandeep Ravichandran)
 
     * sukeerthiadiga (Sukeerthi Adiga)
 
