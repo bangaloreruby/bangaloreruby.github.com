@@ -16,30 +16,30 @@
 
   <body class="high_voltage-pages high_voltage-pages-show">
     <header>
-    <p>Next Event:
-    <a href="#test" id="next-event">Enter the next event here</a>
-    </p>
-
     <h1>
       <a href="/">
-        <img alt="logo" src="/assets/logo-47dabc179f1df3c5027377bb32ed6191.png" />
-        Boston Ruby Group
+        <img alt="logo" src="{{ ASSET_PATH }}/images/Ruby1.png" />
+        Bangalore Ruby Users Group
     </a>      </h1>
     </header>
     <nav class='links'>
     <ul>
-      <li class="members"><a href="/members.html">members</a></li>
-      <li class="organizations"><a href="/organizations.html">organizations</a></li>
-      <li class="archive"><a href="/archive.html">archive</a></li>
-      <li class="page"><a href="/pages.html">pages</a></li>
-      <li class="category"><a href="/categories.html">categories</a></li>
-      <li class="tag"><a href="/tags.html">tags</a></li>
-      <li class="forkme"><div><iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=bangaloreruby&repo=bangaloreruby.github.com&type=fork&count=true"
-          allowtransparency="true" frameborder="0" scrolling="0" width="95px" height="20px"></iframe></div></li>
-      <li><div class="twitter-follow"><a href="https://twitter.com/{{ site.author.twitter }}" class="twitter-follow-button" data-show-count="false" data-lang="en"></a></div></li>
-
+      <li><a href="/members.html">Members</a></li>
+      <li><a href="/organizations.html">Organizations</a></li>
+      <li><a href="/archive.html">Archive</a></li>
+      <li><a href="/pages.html">Pages</a></li>
+      <li><a href="/categories.html">Categories</a></li>
+      <li><a href="/tags.html">Tags</a></li>
+      <li><a href="https://groups.google.com/forum/?fromgroups#!forum/{{ site.author.google_group }}/">Group</a>
+      <li><a href="http://github.com/{{ site.author.github }}/">Github</a>
+      <li><a href="http://twitter.com/{{ site.author.twitter }}/">Twitter</a>
+      <li><a href="irc://irc.freenode.net/{{ site.author.irc }}">IRC</a>
+      <li><a href="http://feeds.feedburner.com/{{ site.author.feedname }}">Subscribe to RSS Feed</a>
     </ul>
     </nav>
+    <div class="forkme"><div><iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=bangaloreruby&repo=bangaloreruby.github.com&type=fork&count=true"
+          allowtransparency="true" frameborder="0" scrolling="0" width="95px" height="20px"></iframe></div></div>
+    <div class="twitter-follow"><a href="https://twitter.com/{{ site.author.twitter }}" class="twitter-follow-button" data-show-count="false" data-lang="en"></a></div></div>
 
 
     <section id="container">
@@ -66,22 +66,5 @@
     </script>
 
     {% include JB/analytics %}
-    <footer class="the-footer">
-    <div class="unit-foot">
-      <div class="unit-inner unit-foot-inner">
-        <div class="misc vcard">
-          <h4>about</h4>
-          <ul>
-            <li class="contact"><address><span class="author fn n">{{ site.author.name }}</span> - <span class="fn email">{{ site.author.email }}</span></address></li>
-            <li class="github"><a href="https://groups.google.com/forum/?fromgroups#!forum/{{ site.author.google_group }}/" rel="me">Google Group</a></li>
-            <li class="github"><a href="http://github.com/{{ site.author.github }}/" rel="me">github.com/{{ site.author.github }}</a></li>
-            <li class="twitter"><a href="http://twitter.com/{{ site.author.twitter }}/" rel="me">twitter.com/{{ site.author.twitter }}</a></li>
-            <li class="irc"><a href="irc://irc.freenode.net/{{ site.author.irc }}">IRC</a></li>
-            <li class="rss"><a href="http://feeds.feedburner.com/{{ site.author.feedname }}">Subscribe to RSS Feed</a></li>
-          </ul>
-        </div><!-- misc -->
-      </div><!-- unit-foot-inner -->
-    </div><!-- unit-foot -->
-    </footer>
   </body>
 </html>
