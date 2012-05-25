@@ -5,7 +5,7 @@ layout : page
 <section id="container">
   <div id="flash"></div>
 
-  <section class='thin column'>
+  <section class='column'>
     <article>
       <header><h2>when</h2></header>
       <p>Every Month</p>
