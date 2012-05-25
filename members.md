@@ -34,6 +34,8 @@ group: navigation
     * ranjan (Ranjan Kumar)
 
     * rashmi14yadav (Rashmi)
+          Email   -> raysrashmi[at]gmail.com
+          URL     -> http://www.raysrashmi.com
 
     * rohit (Rohit Arondekar)
 
