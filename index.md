@@ -8,12 +8,22 @@ layout : page
   <section class='column'>
     <article>
       <header><h2>when</h2></header>
-      <p>Every Month</p>
+      <p>
+        Third saturday of every month, 11.00AM. 
+        Next one upcoming is,
+        <a href="http://gathers.us/events/bangalore-ruby-user-group-june-2012-meeting">
+        http://gathers.us/events/bangalore-ruby-user-group-june-2012-meeting
+        </a>
+      </p>
     </article>
   
     <article>
       <header><h2>where</h2></header>
-      <p>We mostly decide</p>
+      <p> 
+      <a href="http://gathers.us/events/bangalore-ruby-user-group-june-2012-meeting">
+        http://gathers.us/events/bangalore-ruby-user-group-june-2012-meeting
+        </a>
+      </p>
     </article>
   
     <article>
