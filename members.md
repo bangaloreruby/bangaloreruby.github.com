@@ -12,6 +12,8 @@ group: navigation
 
     * ganeshkumar (Ganesh Kumar)
 
+    * gja (Tejas Dinkar)
+
     * gnufied (Hemant Kumar)
 
     * hemanth (hemanth.hm)
