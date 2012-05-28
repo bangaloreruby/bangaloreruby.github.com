@@ -7,7 +7,8 @@ group: navigation
 {% include JB/setup %}
 
     * arunagw (Arun Agrawal)
-
+          Email   -> arunagw[at]gmail.com
+          URL     -> http://agrawalarun.com
     * deepak (Deepak Kannan)
 
     * ganeshkumar (Ganesh Kumar)
