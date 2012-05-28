@@ -26,10 +26,6 @@
     <ul>
       <li><a href="/members.html">Members</a></li>
       <li><a href="/organizations.html">Organizations</a></li>
-      <li><a href="/archive.html">Archive</a></li>
-      <li><a href="/pages.html">Pages</a></li>
-      <li><a href="/categories.html">Categories</a></li>
-      <li><a href="/tags.html">Tags</a></li>
       <li><a href="https://groups.google.com/forum/?fromgroups#!forum/{{ site.author.google_group }}/">Group</a>
       <li><a href="http://github.com/{{ site.author.github }}/">Github</a>
       <li><a href="http://twitter.com/{{ site.author.twitter }}/">Twitter</a>
@@ -37,9 +33,7 @@
       <li><a href="http://feeds.feedburner.com/{{ site.author.feedname }}">Subscribe to RSS Feed</a>
     </ul>
     </nav>
-    <div class="forkme"><div><iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=bangaloreruby&repo=bangaloreruby.github.com&type=fork&count=true"
-          allowtransparency="true" frameborder="0" scrolling="0" width="95px" height="20px"></iframe></div></div>
-    <div class="twitter-follow" style="margin-bottom: 20px;"><a href="https://twitter.com/{{ site.author.twitter }}" class="twitter-follow-button" data-show-count="false" data-lang="en"></a></div></div>
+    
 
 
     <section id="container">
@@ -48,6 +42,15 @@
     <h5>Be sure to follow <a href="http://twitter.com/bangaloreruby" target="_blanl">@bangaloreruby</a> for everything Ruby in Bangalore.</h5>
     {{ content }}
     </section>
+    <div class="forkme">
+      <div>
+        <iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=bangaloreruby&repo=bangaloreruby.github.com&type=fork&count=true"
+          allowtransparency="true" frameborder="0" scrolling="0" width="95px" height="20px">
+        </iframe></div></div>
+    <div class="twitter-follow" style="margin-bottom: 20px;">
+      <a href="https://twitter.com/{{ site.author.twitter }}" class="twitter-follow-button" data-show-count="false" data-lang="en"></a>
+    </div></div>
+
     <script>
       (function(d, s) {
         var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
