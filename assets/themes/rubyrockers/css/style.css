@@ -1,1 +1,411 @@
-@charset "UTF-8";html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}body{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,blockquote:before,blockquote:after{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block}@font-face{font-family:'prociono';font-weight:normal;font-style:normal;src:url("http://font.thoughtbot.com/prociono/prociono.eot");src:local("â˜º"),url("http://font.thoughtbot.com/prociono/prociono.woff") format("woff"),url("http://font.thoughtbot.com/prociono/prociono.ttf") format("truetype"),url("http://font.thoughtbot.com/prociono/prociono.svg#webfontKbEUjPJ6") format("svg")}a{color:#222}body{background:#ffebc3;background-image:url("/assets/background.png");color:#222;font-family:prociono, georgia, palatino, times new roman, serif;text-rendering:optimizeLegibility;width:700px;margin:42px 50px 75px 250px}body > header{padding-top:9px;margin-bottom:16px}body > header h1 a{font-size:48px;text-decoration:none;padding-left:6px}body > header h1 img{height:48px;position:relative;top:5px}nav.links{margin-bottom:20px}nav.links ul{margin:0;padding:0;border:0;overflow:hidden;*zoom:1;font-size:12px;margin-bottom:10px}nav.links ul li{list-style-image:none;list-style-type:none;margin-left:0px;white-space:nowrap;display:inline;float:left;padding-left:4px;padding-right:4px}nav.links ul li:first-child,nav.links ul li.first{padding-left:0}nav.links ul li:last-child{padding-right:0}nav.links ul li.last{padding-right:0}nav.links ul li{padding-left:0px;line-height:1.5em}nav.links ul li:after{content:"/"}nav.links ul li:last-child:after{content:""}nav.links ul li a{margin-right:4px;text-decoration:none;padding-bottom:1px}nav.links ul li a:hover{border-bottom:1px solid}section#container > hgroup.title{margin-bottom:20px}section#container > hgroup.title h2{position:relative;left:-160px;width:140px;text-align:right;top:20px}section#container > hgroup.title h2:after{content:"/"}section#container > hgroup.title h3{font-size:24px}section.column.thin{float:left;width:280px}section.column > article{margin-bottom:20px}section.column > article > header{top:32px;position:relative;left:-160px;width:140px}section.column > article > header h2{font-size:24px;text-align:right}section.column > article > header h2:after{content:"/"}section.column > article.date > header{line-height:28px;top:28px}section.column > article.date > header h2{font-size:16px}section.column > article.date section.presentation{margin-bottom:30px}section.column > article.date section.presentation > hgroup{margin-bottom:10px}section.column > article.date section.presentation > hgroup h2{font-size:24px;margin-bottom:8px}section.column > article.date section.presentation > hgroup h4{font-size:16px}section.column > article.date section.presentation p{margin-top:10px}section.column > article.date section.presentation ul{margin:0;padding:0;border:0;overflow:hidden;*zoom:1;margin-top:15px;line-height:1.25em;font-size:.9em}section.column > article.date section.presentation ul li{list-style-image:none;list-style-type:none;margin-left:0px;white-space:nowrap;display:inline;float:left;padding-left:4px;padding-right:4px}section.column > article.date section.presentation ul li:first-child,section.column > article.date section.presentation ul li.first{padding-left:0}section.column > article.date section.presentation ul li:last-child{padding-right:0}section.column > article.date section.presentation ul li.last{padding-right:0}section.column > article > p{-moz-border-radius:8px;-webkit-border-radius:8px;-o-border-radius:8px;-ms-border-radius:8px;-khtml-border-radius:8px;border-radius:8px;background-color:#F5DCA0;padding:10px;line-height:28px;text-align:left}aside.column{margin-top:24px;margin-left:20px;float:left;width:270px;-moz-border-radius:8px;-webkit-border-radius:8px;-o-border-radius:8px;-ms-border-radius:8px;-khtml-border-radius:8px;border-radius:8px;background-color:#B46E32;color:#F5DCA0;padding:10px}aside.column > header{margin-bottom:30px}aside.column > header h2{font-size:36px}aside.column article.date{margin-bottom:30px}aside.column article.date:last-child{margin-bottom:0px}aside.column article.date > header{margin-bottom:10px}aside.column article.date > header h2{font-size:28px}aside.column article.date section{margin-bottom:20px}aside.column article.date section hgroup{margin-bottom:10px}aside.column article.date section hgroup h2{font-size:24px;margin-bottom:5px}aside.column article.date section hgroup h2 a{color:#F5DCA0}aside.column article.date section hgroup h4{font-size:14px}aside.column article.date section p{line-height:1.25em}body.presentations-index section.column{float:none}body.proposals label{font-weight:bold;font-size:16px;display:block;padding-bottom:5px}body.proposals input[type="text"],body.proposals textarea{padding:5px;width:400px;font-size:16px}body.proposals input[type="text"]{margin-bottom:1em}body.proposals input[type="submit"]{background-color:#A41000;color:#FFFFFF;font-weight:bold;text-transform:uppercase;font-size:14px;border:0px;margin:0px;padding:8px 12px}body.proposals textarea{height:200px;margin-bottom:1em}body.proposals p{margin-bottom:1em}
+@charset "UTF-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+}
+
+#sidebar h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #542437;
+}
+#sidebar h2 {
+    font-size: 18px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+#sidebar label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+body {
+	line-height:1;
+}
+
+ol, ul {
+	list-style:none;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+caption, th, td {
+	text-align:left;
+	font-weight:normal;
+	vertical-align:middle;
+}
+
+q, blockquote {
+	quotes:none;
+}
+
+q:before, q:after, blockquote:before, blockquote:after {
+	content:"";
+	content:none;
+}
+
+a img {
+	border:none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+	display:block;
+}
+
+@font-face {
+	font-family:'prociono';
+	font-weight:normal;
+	font-style:normal;
+	src:url("http://font.thoughtbot.com/prociono/prociono.eot");
+	src:local(""), url("http://font.thoughtbot.com/prociono/prociono.woff") format("woff"), url("http://font.thoughtbot.com/prociono/prociono.ttf") format("truetype"), url("http://font.thoughtbot.com/prociono/prociono.svg#webfontKbEUjPJ6") format("svg");
+}
+
+a {
+	color: #810E00;
+}
+
+body {
+	background:#ffebc3;
+	background-image:url("/assets/background.png");
+	color:#222;
+	font-family:prociono,  georgia,  palatino,  times new roman,  serif;
+	text-rendering:optimizeLegibility;
+    text-align: center;
+}
+
+div#wrapper {
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#wrapper > header {
+	padding-top:9px;
+	margin-bottom:16px;
+}
+
+#wrapper > header h1 a {
+	font-size:48px;
+	text-decoration:none;
+	padding-left:6px;
+    color: #444444;
+}
+
+#wrapper > header h1 img {
+	height:48px;
+	position:relative;
+	top:5px;
+}
+
+nav.links {
+	margin-bottom:20px;
+}
+
+nav.links ul {
+	margin:0;
+	padding:0;
+	border:0;
+	overflow:hidden;
+	*zoom:1;
+	font-size:18px;
+	margin-bottom: 20px 0;
+    padding: 20px 0;
+    border-top: 1px solid #222222;
+}
+
+nav.links ul li {
+	list-style-image:none;
+	list-style-type:none;
+	margin-left:0px;
+	white-space:nowrap;
+	display:inline;
+	float:left;
+	padding-left:3px;
+	padding-right:3px;
+}
+
+nav.links ul li:first-child, nav.links ul li.first {
+	padding-left:0;
+}
+
+nav.links ul li:last-child {
+	padding-right:0;
+}
+
+nav.links ul li.last {
+	padding-right:0;
+}
+
+nav.links ul li {
+	padding-left:0px;
+	line-height:1.5em;
+}
+
+nav.links ul li:after {
+	content:"|";
+}
+
+nav.links ul li:last-child:after {
+	content:"";
+}
+
+nav.links ul li a {
+	margin-right:3px;
+	text-decoration:none;
+	padding-bottom:1px;
+}
+
+nav.links ul li a:hover {
+	border-bottom:1px solid;
+}
+
+section#container {
+    width: 700px;
+    margin-right: 30px;
+    float:left;
+}
+
+section#sidebar {
+    width: 230px;
+    float: right;
+}
+
+section#container > hgroup.title {
+	margin-bottom:20px;
+}
+
+section#container > hgroup.title h2 {
+	position:relative;
+	left:-160px;
+	width:140px;
+	text-align:right;
+	top:20px;
+}
+
+section#container > hgroup.title h2:after {
+	content:"/";
+}
+
+section#container > hgroup.title h3 {
+	font-size:24px;
+}
+
+section.column.thin {
+	float:left;
+	width:280px;
+}
+
+section.column > article {
+	margin-bottom:20px;
+}
+
+section.column > article > header {
+	top:32px;
+	position:relative;
+	left:-160px;
+	width:140px;
+}
+
+section.column > article > header h2 {
+	font-size:24px;
+	text-align:right;
+}
+
+section.column > article > header h2:after {
+	content:"/";
+}
+
+section.column > article.date > header {
+	line-height:28px;
+	top:28px;
+}
+
+section.column > article.date > header h2 {
+	font-size:16px;
+}
+
+section.column > article.date section.presentation {
+	margin-bottom:30px;
+}
+
+section.column > article.date section.presentation > hgroup {
+	margin-bottom:10px;
+}
+
+section.column > article.date section.presentation > hgroup h2 {
+	font-size:24px;
+	margin-bottom:8px;
+}
+
+section.column > article.date section.presentation > hgroup h4 {
+	font-size:16px;
+}
+
+section.column > article.date section.presentation p {
+	margin-top:10px;
+}
+
+section.column > article.date section.presentation ul {
+	margin:0;
+	padding:0;
+	border:0;
+	overflow:hidden;
+	*zoom:1;
+	margin-top:15px;
+	line-height:1.25em;
+	font-size:.9em;
+}
+
+section.column > article.date section.presentation ul li {
+	list-style-image:none;
+	list-style-type:none;
+	margin-left:0px;
+	white-space:nowrap;
+	display:inline;
+	float:left;
+	padding-left:4px;
+	padding-right:4px;
+}
+
+section.column > article.date section.presentation ul li:first-child, section.column > article.date section.presentation ul li.first {
+	padding-left:0;
+}
+
+section.column > article.date section.presentation ul li:last-child {
+	padding-right:0;
+}
+
+section.column > article.date section.presentation ul li.last {
+	padding-right:0;
+}
+
+section.column > article > p {
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	-o-border-radius:8px;
+	-ms-border-radius:8px;
+	-khtml-border-radius:8px;
+	border-radius:8px;
+	background-color:#F5DCA0;
+	padding:10px;
+	line-height:28px;
+	text-align:left;
+}
+
+aside.column {
+	margin-top:24px;
+	margin-left:20px;
+	float:left;
+	width:270px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	-o-border-radius:8px;
+	-ms-border-radius:8px;
+	-khtml-border-radius:8px;
+	border-radius:8px;
+	background-color:#B46E32;
+	color:#F5DCA0;
+	padding:10px;
+}
+
+aside.column > header {
+	margin-bottom:30px;
+}
+
+aside.column > header h2 {
+	font-size:36px;
+}
+
+aside.column article.date {
+	margin-bottom:30px;
+}
+
+aside.column article.date:last-child {
+	margin-bottom:0px;
+}
+
+aside.column article.date > header {
+	margin-bottom:10px;
+}
+
+aside.column article.date > header h2 {
+	font-size:28px;
+}
+
+aside.column article.date section {
+	margin-bottom:20px;
+}
+
+aside.column article.date section hgroup {
+	margin-bottom:10px;
+}
+
+aside.column article.date section hgroup h2 {
+	font-size:24px;
+	margin-bottom:5px;
+}
+
+aside.column article.date section hgroup h2 a {
+	color:#F5DCA0;
+}
+
+aside.column article.date section hgroup h4 {
+	font-size:14px;
+}
+
+aside.column article.date section p {
+	line-height:1.25em;
+}
+
+body.presentations-index section.column {
+	float:none;
+}
+
+body.proposals label {
+	font-weight:bold;
+	font-size:16px;
+	display:block;
+	padding-bottom:5px;
+}
+
+body.proposals input[type="text"], body.proposals textarea {
+	padding:5px;
+	width:400px;
+	font-size:16px;
+}
+
+body.proposals input[type="text"] {
+	margin-bottom:1em;
+}
+
+body.proposals input[type="submit"] {
+	background-color:#A41000;
+	color:#FFFFFF;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:14px;
+	border:0px;
+	margin:0px;
+	padding:8px 12px;
+}
+
+body.proposals textarea {
+	height:200px;
+	margin-bottom:1em;
+}
+
+body.proposals p {
+	margin-bottom:1em;
+}
+
+
+
+
