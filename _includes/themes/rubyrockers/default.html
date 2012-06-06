@@ -15,41 +15,59 @@
   </head>
 
   <body class="high_voltage-pages high_voltage-pages-show">
-    <header>
-    <h1>
-      <a href="/">
-        <img alt="logo" src="{{ ASSET_PATH }}/images/ruby_normal.png" />
-        Bangalore Ruby Users Group
-    </a>      </h1>
-    </header>
-    <nav class='links'>
-    <ul>
-      <li><a href="/members.html">Members</a></li>
-      <li><a href="/organizations.html">Organizations</a></li>
-      <li><a href="https://groups.google.com/forum/?fromgroups#!forum/{{ site.author.google_group }}/">Group</a>
-      <li><a href="http://github.com/{{ site.author.github }}/">Github</a>
-      <li><a href="http://twitter.com/{{ site.author.twitter }}/">Twitter</a>
-      <li><a href="irc://irc.freenode.net/{{ site.author.irc }}">IRC</a>
-      <li><a href="http://feeds.feedburner.com/{{ site.author.feedname }}">Subscribe to RSS Feed</a>
-    </ul>
-    </nav>
-    
+    <div id="wrapper">
+      <header>
+        <h1 style="float: left">
+          <a href="/">
+            <img alt="logo" src="{{ ASSET_PATH }}/images/ruby_normal.png" />
+            Bangalore Ruby Users Group
+          </a>
+        </h1>
+        <section class="social-media" style="float:right">
+          <div class="forkme">
+              <iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=bangaloreruby&repo=bangaloreruby.github.com&type=fork&count=true"
+                allowtransparency="true" frameborder="0" scrolling="0" width="95px" height="20px">
+              </iframe>
+          </div>
+          <div class="twitter-follow" style="margin-bottom: 20px;">
+            <a href="https://twitter.com/{{ site.author.twitter }}" class="twitter-follow-button" data-show-count="false" data-lang="en"></a>
+          </div>
+      </section>
+      </header>
+      <div style="clear:both"></div>
 
+      <nav class='links'>
+      <ul>
+        <li><a href="/members.html">Members</a></li>
+        <li><a href="/organizations.html">Organizations</a></li>
+        <li><a target="_blank" href="https://groups.google.com/forum/?fromgroups#!forum/{{ site.author.google_group }}/">Group</a>
+        <li><a target="_blank" href="http://github.com/{{ site.author.github }}/">Github</a>
+        <li><a target="_blank" href="http://twitter.com/{{ site.author.twitter }}/">Twitter</a>
+        <li><a target="_blank" href="irc://irc.freenode.net/{{ site.author.irc }}">IRC</a>
+        <li><a target="_blank" href="http://feeds.feedburner.com/{{ site.author.feedname }}">Subscribe to RSS Feed</a>
+      </ul>
+      </nav>
 
-    <section id="container">
-    <div id="flash">
+      <section id="container">
+      <div id="flash">
+      </div>
+      <h5>Be sure to follow <a href="http://twitter.com/bangaloreruby" target="_blanl">@bangaloreruby</a> for everything Ruby in Bangalore.</h5>
+      {{ content }}
+      </section>
+      <section id="sidebar">
+        <article>
+          <header>
+            <h1>Upcoming Events</h1>
+          </header>
+          <label>Event:</label><input type="text" value="BugMash" readonly /><br /><br />
+          <label>Date:</label><input type="text" value="June 9th, 2012" readonly /><br /><br />
+          <aside>
+            <a target="_blank" href="http://gathers.us/events/bugmash">http://gathers.us/events/bugmash</a><br /><br />
+          </aside>
+        </article>
+      </section>
+      <div style="clear:both"></div>
     </div>
-    <h5>Be sure to follow <a href="http://twitter.com/bangaloreruby" target="_blanl">@bangaloreruby</a> for everything Ruby in Bangalore.</h5>
-    {{ content }}
-    </section>
-    <div class="forkme">
-      <div>
-        <iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=bangaloreruby&repo=bangaloreruby.github.com&type=fork&count=true"
-          allowtransparency="true" frameborder="0" scrolling="0" width="95px" height="20px">
-        </iframe></div></div>
-    <div class="twitter-follow" style="margin-bottom: 20px;">
-      <a href="https://twitter.com/{{ site.author.twitter }}" class="twitter-follow-button" data-show-count="false" data-lang="en"></a>
-    </div></div>
 
     <script>
       (function(d, s) {
