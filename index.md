@@ -10,10 +10,8 @@ layout : page
       <header><h2>when</h2></header>
       <p>
         Third saturday of every month, 11.00AM. 
-        Next one upcoming is,
-        <a href="http://gathers.us/events/bangalore-ruby-user-group-june-2012-meeting" target="_blank">
-        http://gathers.us/events/bangalore-ruby-user-group-june-2012-meeting
-        </a>
+        
+        <a href="http://gathers.us/events/bangalore-ruby-user-group-june-2012-meeting" target="_blank">Next meetup!</a>
       </p>
     </article>
   
