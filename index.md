@@ -11,16 +11,15 @@ layout : page
       <p>
         Third saturday of every month, 11.00AM. 
         
-        <a href="http://gathers.us/events/bangalore-ruby-user-group-june-2012-meeting" target="_blank">Next meetup!</a>
+        The latest meetup was on <a href="http://gathers.us/events/bangalore-ruby-user-group-nov-2012-meeting">17th of Nov 2012</a>, and the meetup notes <a href="/meetups.html" target="_blank">are here</a>.
+        The next meetup will be announced soon.
       </p>
     </article>
   
     <article>
       <header><h2>where</h2></header>
       <p> 
-      <a href="http://gathers.us/events/bangalore-ruby-user-group-june-2012-meeting" target="_blank">
-        http://gathers.us/events/bangalore-ruby-user-group-june-2012-meeting
-        </a>
+      The meetups are usually hosted at organizations willing to do so on a round-robin basis.
       </p>
     </article>
   
@@ -39,7 +38,7 @@ layout : page
     <article>
       <header><h2>more</h2></header>
       <p>
-        We conduct: Hackfest, BugMash.       
+        We conduct: Hackfests, BugMashes, etc       
       </p>
     </article>
   </section>
