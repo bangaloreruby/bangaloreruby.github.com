@@ -11,8 +11,7 @@ layout : page
       <p>
         Third saturday of every month, 11.00AM. 
         
-        The latest meetup was on <a href="http://gathers.us/events/bangalore-ruby-user-group-nov-2012-meeting">17th of Nov 2012</a>, and the meetup notes <a href="/meetups.html" target="_blank">are here</a>.
-        The next meetup will be announced soon.
+        The most recent meetup was on <a href="http://gathers.us/events/bangalore-ruby-user-group-jan-2013-meeting">19th of Jan 2012</a>, and the meetup notes <a href="/meetups.html" target="_blank">are here</a>.
       </p>
     </article>
   
