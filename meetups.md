@@ -7,7 +7,7 @@ layout : page
 
   <section class='column'>
     <article>
-    <header><h2>19 Jan 2012</h2></header>
+    <header><h2>19 Jan 2013</h2></header>
     <p>
       <strong>Meetup Notes</strong><br />
       The meetup had two talks for the day: <em><strong>Ruby 2.0 features</strong> by Hemant (@gnufied)</em> and <em><strong>Building Allotrop</strong> by Rohit Mishra (@movingahead)</em> 
@@ -18,10 +18,10 @@ layout : page
     </p>
     
     <p>
-       Hemant then went on to explain about the new keyword arguments planned for this release, which adds more flexibility in passing arguments, a la Rails. The next point was about Module#prepend, a way working around the fact that 'include' appends methods, which can lead to some method overriding issues. He also went on to explain about Trace Point, a new way to profile ruby methods, and also about support for DTrace hooks which lets us do sophisticated debugging on ruby programs. 
+       Hemant then went on to explain about the new keyword arguments planned for this release, which adds more flexibility in passing arguments, a la Rails. The next point was about Module#prepend, a way working around the fact that 'include' appends methods, which can lead to some method overriding issues. He also went on to explain about Trace Point, a new way to profile ruby methods, and also about support for DTrace hooks which lets us do sophisticated debugging on ruby programs. You can find his <a href="https://speakerdeck.com/gnufied/ruby-2-dot-0-upcoming-changes">presentation here</a>. 
     </p>
     
-    <p>Then it was over to Rohit, who gave a quick intro of <a href="http://allotrop.com">Allotrop</a>, which is basically a recommendation engine trying to connect our 'likes' to structured data. He explained his journey through several frameworks and languages before finally settling on Rails and why. He then talked about his struggle through making the right set of architectural choices, and how somtimes overthinking it really bites us. In Rohit's opinion, the right way to start with Rails is to find a mentor who has already been doing Rails for a while, and not being afraid to break stuff and learn from the results.
+    <p>Then it was over to Rohit, who gave a quick intro of his startup  Allotrop, which is basically a recommendation engine trying to connect our 'likes' to structured data. He explained his journey through several frameworks and languages before finally settling on Rails and why. He then talked about his struggle through making the right set of architectural choices, and how somtimes overthinking it really bites us. In Rohit's opinion, the right way to start with Rails is to find a mentor who has already been doing Rails for a while, and not being afraid to break stuff and learn from the results.
     </p>
     
     <p>After the talks, there was longish discussion about Rails 4, concerns, strong parameters and how to make specs run faster, Zeus (the test runner), Backbone.js, Angular.js, etc. Here are some <a href="https://www.dropbox.com/sh/8rpeov7z5lz3a02/bd2-SGXWis/brug/jan2013">pics of the event</a>.</p>
