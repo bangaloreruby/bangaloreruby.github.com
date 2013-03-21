@@ -4,12 +4,46 @@ layout : page
 
 <section id="container">
   <div id="flash"></div>
-
+  
+  <section class='column'>
+  <article>
+    <header><h2>16th March 2013</h2></header>
+    <p>
+      The meetup started with intros by people and this time we had lot of new (at least more than couple) faces. There were 4 people who had come from Mysore(which includes the speaker Swanand), which also made  the meetup special.
+      <br />
+      There were 2 talks for the current meetup and the details of the same follows. 
+    </p>
+    <p>
+      <strong>Swanand - Talk on Build your first MapReduce with Hadoop and Ruby</strong><br />
+      The presentation was about the following:
+      <br />
+      * What's MapReduce and Hadoop<br />
+      * What's Map and Reduce<br />
+      * And a sample app to showcase the above
+      <br /><br />
+      The talk went into detail about what the map and reducer are, how MapReduce uses the key->value pair at every stage i.e. both in Map and Reduce jobs and also how it uses natural sorting for efficiency.
+      <br/> 
+      There was a demo at the end of the talk. The demo was about reading couple of books in txt format and find out the most used alphabet is e. During the demo Swanand showed us how to use Ruby to create Mappers and Reducers and use the configuration given by Hadoop.
+      <br/>
+      The presentation ended with showing References (which includes videos, articles and blog posts) which would help you to get started with Hadoop and also further documentation. 
+    </p>
+    <p>
+      <strong>Hemant - Demo/presentation on dtrace in Ruby 2</strong><br />
+      Started with explaining the architecture of dtrace sampling profiler (image below)  where dtrace probes and profiler run outside the program causing no overhead to your program.
+      <br/>
+      Then he explained more about anatomy of probes with the help of simple examples. There were many live examples shown on how to use dtrace commands (available in slides). Later he introduced us to D script language, which looks more or less similar to C syntax. You can refer to his slides which are self explanatory on the examples and functions used in D scripts. In after the talk discussions, there were suggestions that you should start using dtrace from beginning, if you are an author of a gem or a framework 
+    </p>
+    <p>
+      That is it from March BRUG meetup. Slides for the presentations are:<br/>
+      <a href="https://speakerdeck.com/swanandp/build-your-first-mapreduce-with-hadoop-and-ruby">build-your-first-mapreduce-with-hadoop-and-ruby</a><br/>
+      <a href="https://speakerdeck.com/gnufied/introduction-to-dtrace">introduction-to-dtrace</a><br/>
+    </p>
+  </article>
+  </section>
   <section class='column'>
     <article>
     <header><h2>19 Jan 2013</h2></header>
     <p>
-      <strong>Meetup Notes</strong><br />
       The meetup had two talks for the day: <em><strong>Ruby 2.0 features</strong> by Hemant (@gnufied)</em> and <em><strong>Building Allotrop</strong> by Rohit Mishra (@movingahead)</em> 
     </p>
     
@@ -33,7 +67,6 @@ layout : page
     <article>
       <header><h2>17 Nov 2012</h2></header>
       <p>
-      <strong>Meetup Notes</strong><br />
       The meetup had two talks for the day - <em>Lessons Learnt while building Survey Web</em> 
       by Nivedita, Smit, Srihari and Timothy of C42 Engineering and 
       <em>Git workflows</em> by Vamsee Kanakala of BangTheTable Software. 
