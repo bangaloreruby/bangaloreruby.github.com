@@ -7,6 +7,40 @@ layout : page
   
   <section class='column'>
   <article>
+    <header><h2>20 April 2013</h2></header>
+    <p>
+      As usual April BRUG meet started with intros by people.
+      <br /> 
+      There were two topics scheduled for this meet.
+    </p>
+    <p>
+      <strong>Yuva - Using Backbone in not so single page application</strong><br />
+      Yuva started with an introduction to the basic architecture of a Backbone application (views, models, collections etc), with example code in slides. He explained why he wanted to use Backbone on his project (since the back-end is depend on some third party application response, even for pagination and filtering the results, his application wanted to communicate with the third party application and which is causing delay.) We had a lot of questions in between the slides and Yuva, Hemant and Dheeraj helped to clear almost all of them.
+      <br />
+      <br />
+      Hemant given an intro to Faye(publish-subscribe messaging between web clients) which is also a part of this topic.
+    </p>
+    <p>
+      <strong>Ashish - Codelearn</strong><br />
+      Ashish wanted to make the discussion more interactive, so he didn't use slides at all. He started with explaining the architecture of Codelearn and the issues that he is facing now. His major concern is about the latency of the terminal window in Codelearn.
+      <br />
+      Lots of suggestions came up during the discussion, some of them are
+      <br />
+      * Event machine<br />
+      * Removing the second Rails application in his current architecture<br />
+      * Ruby VNC
+      <br /><br />
+    </p>
+<!--     <p>
+      That is it from March BRUG meetup. Slides for the presentations are:<br/>
+      <a href="https://speakerdeck.com/swanandp/build-your-first-mapreduce-with-hadoop-and-ruby">build-your-first-mapreduce-with-hadoop-and-ruby</a><br/>
+      <a href="https://speakerdeck.com/gnufied/introduction-to-dtrace">introduction-to-dtrace</a><br/>
+    </p> -->
+  </article>
+  </section>
+  <!-- end of April notes -->
+  <section class='column'>
+  <article>
     <header><h2>16th March 2013</h2></header>
     <p>
       The meetup started with intros by people and this time we had lot of new (at least more than couple) faces. There were 4 people who had come from Mysore(which includes the speaker Swanand), which also made  the meetup special.
