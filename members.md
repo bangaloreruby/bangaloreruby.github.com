@@ -10,7 +10,7 @@ group: navigation
           Email   -> arunagw[at]gmail.com
           URL     -> http://agrawalarun.com
 * deepak (Deepak Kannan)
-* Emil Soman [[twitter](https://twitter.com/emil_soman)][[github](https://github.com/emilsoman)][[blog](http://www.emilsoman.com)]
+* Emil Soman [[twitter]](https://twitter.com/emil_soman) [[github]](https://github.com/emilsoman) [[blog]](http://www.emilsoman.com)
 * ganeshkumar (Ganesh Kumar)
 * gja (Tejas Dinkar)
 * gnufied (Hemant Kumar)
@@ -31,6 +31,6 @@ group: navigation
 * rohit (Rohit Arondekar)
 * sandeepravi (Sandeep Ravichandran)
 * sukeerthiadiga (Sukeerthi Adiga)
-* swanandp (Swanand Pagnis)
+* Swanand Pagnis [[twitter]](https://twitter.com/_swanand) [[github]](https://github.com/swanandp) Email: swanand[at]pagnis.in
 * vatrai (Vishnu Atrai)
 * vijayabharathy
