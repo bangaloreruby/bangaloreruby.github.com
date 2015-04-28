@@ -10,8 +10,6 @@ layout : page
       <header><h2>when</h2></header>
       <p>
         Third saturday of every month, 11.00AM. 
-        
-        The most recent meetup was on <a href="http://gathers.us/events/bangalore-ruby-user-group-april-meet">20th of April 2013</a>, and the meetup notes <a href="/meetups.html" target="_blank">are here</a>.
       </p>
     </article>
   
