@@ -1,3 +1,3 @@
 source "http://rubygems.org"
-gem 'jekyll', "~> 1.3.0"
+gem 'jekyll', '~> 2.0.0' # This change was made via Snyk to fix a vulnerability
 
